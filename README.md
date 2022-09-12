@@ -1,62 +1,75 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Rails react
 
-# Project Name
-
-> Description the project.
-
+- In this project, i used the `react-rails`gem. This gem allows you to build React components as a part of your Rails JavaScript and serve it in a component, react_component, to be used in a regular ERB file.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Ruby on Rails
+- PostgreSQL
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine
+- [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
 
+- Clone this repo
+  ```
+  git clone https://github.com/frank1738/Rails-react.git
+  ```
+- To get started, In the root directory run:
 
-To get a local copy up and running follow these simple example steps.
+  ```
+  gem install bundler
+  ```
 
-### Prerequisites
+  Then run the following commands:
 
-### Setup
+  ```
+  bundle install
+  ```
 
-### Install
+  ```
+  rails db:create db:migrate db:seed
+  ```
 
-### Usage
+  ```
+  npm install
+  ```
 
-### Run tests
+  ```
+  npm run build
+  ```
 
-### Deployment
+  To start the server run:
 
+  ```
+  rails s
+  ```
 
+  Open the browser with `localhost:3000`
 
-## Authors
+### To track linter errors locally follow these steps:
 
-👤 **Author1**
+Track linter errors run:
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+```
+rubocop
+```
 
-👤 **Author2**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Frankline osoro
+
+- GitHub: [@frank1738](https://github.com/frank1738)
+- Twitter: [@frankhiggins08](https://twitter.com/frankhiggins08)
+- LinkedIn: [Frankline Osoro](http://www.linkedin.com/in/frankline-osoro-b526ba18b)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/frank1738/Rails-react/issues).
 
 ## Show your support
 
@@ -64,12 +77,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to my morning session partners, coding partners and teammates.
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
